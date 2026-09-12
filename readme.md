@@ -81,7 +81,7 @@ pip install datasets
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 1. Custom Word Problem Solver
 Solves 100 custom word problems covering:
@@ -244,7 +244,7 @@ Solves 100 custom word problems covering:
 
 ---
 
-## 🎯 Key Observations
+##  Key Observations
 
 1. **MATH-500 Performance:** The model performs well on easier problems (Level 1: 81.4%) but struggles with harder ones (Level 5: 27.6%)
 
