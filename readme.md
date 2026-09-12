@@ -60,7 +60,7 @@ HackAston-6/
 | Component | Details |
 |-----------|---------|
 | **Model** | Spark-X2.5-1.7B |
-| **Device** | GPU |
+| **Device** | Apple M3 8GB Unified Memory |
 | **Dtype** | bfloat16 |
 | **Max Tokens** | 30,000 |
 | **Temperature** | 0.7 |
