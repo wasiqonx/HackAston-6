@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧮 Spark-X2.5-1.7B Math Problem Solver
+# Spark-X2.5-1.7B Math Problem Solver
 
 ### Comprehensive Math Problem Solving & Evaluation System
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [Project Structure](#-project-structure)
@@ -27,13 +27,13 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 A comprehensive math problem solving and evaluation system using the **Spark-X2.5-1.7B** language model. The system evaluates model performance on standardized benchmarks and custom word problems, providing detailed accuracy metrics and error analysis.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 HackAston-6/
@@ -55,7 +55,7 @@ HackAston-6/
 
 ---
 
-## 🚀 Quick Start
+## Pre-Requsites
 
 ```bash
 cd /Users/wasiq/Desktop/WW/ProjectLOL/HackAston-6/
@@ -107,7 +107,7 @@ Solves 100 custom word problems covering:
 
 ---
 
-## 🤖 Model Information
+##  Model Information
 
 | Component | Details |
 |-----------|---------|
@@ -120,7 +120,7 @@ Solves 100 custom word problems covering:
 
 ---
 
-## 📄 Dataset Format
+##  Dataset Format
 
 ### Custom Word Problems (JSONL)
 ```json
@@ -136,7 +136,7 @@ Solves 100 custom word problems covering:
 
 ---
 
-## 📏 Evaluation Metrics
+##  Evaluation Metrics
 
 ### Comparison Strategies
 
@@ -171,7 +171,7 @@ Solves 100 custom word problems covering:
 
 ---
 
-## 📊 Test Results
+##  Test Results
 
 ### MATH-500 Dataset (500 Problems)
 
@@ -235,7 +235,7 @@ Solves 100 custom word problems covering:
 
 ---
 
-## 📈 Comparison Summary
+##  Comparison Summary
 
 | Dataset | Problems | Correct | Accuracy (excl. errors) | Overall Accuracy |
 |---------|----------|---------|-------------------------|------------------|
@@ -256,22 +256,22 @@ Solves 100 custom word problems covering:
 
 ---
 
-## 📝 Conclusion
+##  Conclusion
 
 The **Spark-X2.5-1.7B** model demonstrates the following characteristics:
 
-### ✅ Strengths
+###  Strengths
 - **Strong on Standardized Tests:** 73.24% accuracy on MATH-500 (excluding errors)
 - **Easiest Problems Solved Well:** 81.4% accuracy on Level 1 difficulty problems
 - **Best at Number Theory:** 74.2% accuracy in this subject area
 
-### ❌ Weaknesses
+###  Weaknesses
 - **Struggles with Hard Problems:** Only 27.6% accuracy on Level 5 difficulty
 - **Word Problem Challenges:** Only 35.90% accuracy on custom word problems
 - **Timeout Issues:** 32% of MATH-500 problems hit timeout limits
 - **Inconsistent Across Subjects:** Ranges from 74.2% (Number Theory) to 32.1% (Precalculus)
 
-### 📊 Overall Assessment
+###  Overall Assessment
 The model shows promise for standardized math problems but requires improvement on complex multi-step reasoning tasks and word problems. Reducing timeout issues and improving performance on higher difficulty levels are key areas for future work.
 
 ---
