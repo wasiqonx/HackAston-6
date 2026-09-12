@@ -17,9 +17,9 @@
 
 - [Overview](#-overview)
 - [Project Structure](#-project-structure)
-- [Quick Start](#-quick-start)
+- [Environment Specifications](#-environment-specifications)
+- [Reproducible Steps](#-reproducible-steps)
 - [Features](#-features)
-- [Model Information](#-model-information)
 - [Dataset Format](#-dataset-format)
 - [Evaluation Metrics](#-evaluation-metrics)
 - [Test Results](#-test-results)
@@ -55,29 +55,87 @@ HackAston-6/
 
 ---
 
-## Pre-Requsites
+## 🔧 Environment Specifications
+
+| Component | Details |
+|-----------|---------|
+| **Model** | Spark-X2.5-1.7B |
+| **Device** | GPU |
+| **Dtype** | bfloat16 |
+| **Max Tokens** | 30,000 |
+| **Temperature** | 0.7 |
+| **Timeout** | 300 seconds per problem |
+
+---
+
+## 🚀 Reproducible Steps
+
+### Prerequisites
+- Python 3.x
+- Virtual environment with required dependencies
+- Spark-X2.5-1.7B model access
+
+### Setup Virtual Environment
 
 ```bash
+# Navigate to project directory
 cd /Users/wasiq/Desktop/WW/ProjectLOL/HackAston-6/
+
+# Create virtual environment
+python3 -m venv .venv
+
+# Activate virtual environment
 source .venv/bin/activate
+
+# Install dependencies
 pip install datasets
 ```
 
-### Solve Custom Word Problems
+### Run Custom Word Problem Tests
 
 ```bash
-# Solve from JSONL file (default)
+# Make sure virtual environment is activated
+source .venv/bin/activate
+
+# Solve custom word problems from JSONL file
 .venv/bin/python solve_custom_problems.py --file custom_word_problem.jsonl --output custom_results.json
 
-# Solve from CSV file
+# Or solve from CSV file
 .venv/bin/python solve_custom_problems.py --file custom_word_problem.csv --output custom_results.json
-```
 
-### Evaluate Results
-
-```bash
+# Evaluate the results
 .venv/bin/python evaluate_custom.py --file custom_results.json
 ```
+
+### Run MATH-500 Benchmark Tests
+
+```bash
+# Navigate to MATH-500 directory
+cd MATH-500/
+
+# Run the solver on MATH-500 dataset
+.venv/bin/python solve_math500.py
+
+# Evaluate the results
+.venv/bin/python evaluate.py
+```
+
+### Output Files
+
+| File | Description |
+|------|-------------|
+| `custom_results.json` | Custom word problem results |
+| `MATH-500/results_full.json` | Full MATH-500 evaluation results |
+| `MATH-500/evaluation_summary.json` | MATH-500 evaluation summary |
+| `MATH-500/solve_log.txt` | Solver log for MATH-500 |
+
+### Expected Test Duration
+
+| Test | Duration |
+|------|----------|
+| Custom Word Problems (100) | ~30-40 minutes |
+| MATH-500 (500 problems) | ~2-3 hours |
+| **Total estimated time** | **~3-4 hours** |
 
 ---
 
@@ -104,19 +162,6 @@ Solves 100 custom word problems covering:
 - Section-wise performance analysis
 - Error analysis (timeouts, model errors)
 - Sample correct/incorrect answers
-
----
-
-##  Model Information
-
-| Component | Details |
-|-----------|---------|
-| **Model** | Spark-X2.5-1.7B |
-| **Device** | GPU |
-| **Dtype** | bfloat16 |
-| **Max Tokens** | 30,000 |
-| **Temperature** | 0.7 |
-| **Timeout** | 300 seconds per problem |
 
 ---
 
