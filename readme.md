@@ -5,9 +5,9 @@
 ### Comprehensive Math Problem Solving & Evaluation System
 
 ![Model](https://img.shields.io/badge/Model-Spark--X2.5--1.7B-blueviolet)
-![Dataset](https://img.shields.io/badge/Datasets-MATH--500%20%7C%20Custom%20Problems-orange)
 ![Language](https://img.shields.io/badge/Language-Python-yellowgreen)
-![Accuracy](https://img.shields.io/badge/MATH--500%20Accuracy-73.24%25-success)
+![MATH-500](https://img.shields.io/badge/MATH--500-73.24%25-success)
+![Custom Problems](https://img.shields.io/badge/Custom%20Problems-35.90%25-red)
 
 </div>
 
