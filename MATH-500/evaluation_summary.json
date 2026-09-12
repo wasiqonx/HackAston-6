@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-09-09T12:01:05.386560",
+  "total_problems": 500,
+  "correct": 249,
+  "incorrect": 91,
+  "errors": 160,
+  "accuracy": 73.23529411764706,
+  "overall_accuracy": 49.8,
+  "subject_stats": {
+    "Precalculus": {
+      "correct": 18,
+      "incorrect": 18,
+      "errors": 20,
+      "total": 56
+    },
+    "Intermediate Algebra": {
+      "correct": 34,
+      "incorrect": 8,
+      "errors": 55,
+      "total": 97
+    },
+    "Algebra": {
+      "correct": 84,
+      "incorrect": 25,
+      "errors": 15,
+      "total": 124
+    },
+    "Number Theory": {
+      "correct": 46,
+      "incorrect": 2,
+      "errors": 14,
+      "total": 62
+    },
+    "Prealgebra": {
+      "correct": 39,
+      "incorrect": 24,
+      "errors": 19,
+      "total": 82
+    },
+    "Geometry": {
+      "correct": 14,
+      "incorrect": 6,
+      "errors": 21,
+      "total": 41
+    },
+    "Counting & Probability": {
+      "correct": 14,
+      "incorrect": 8,
+      "errors": 16,
+      "total": 38
+    }
+  },
+  "level_stats": {
+    "2": {
+      "correct": 59,
+      "incorrect": 18,
+      "errors": 13,
+      "total": 90
+    },
+    "5": {
+      "correct": 37,
+      "incorrect": 18,
+      "errors": 79,
+      "total": 134
+    },
+    "3": {
+      "correct": 57,
+      "incorrect": 23,
+      "errors": 25,
+      "total": 105
+    },
+    "4": {
+      "correct": 61,
+      "incorrect": 26,
+      "errors": 41,
+      "total": 128
+    },
+    "1": {
+      "correct": 35,
+      "incorrect": 6,
+      "errors": 2,
+      "total": 43
+    }
+  }
+}

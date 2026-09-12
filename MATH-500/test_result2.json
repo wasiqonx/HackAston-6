@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-09-08T15:15:09.896040",
+  "model": "XHToken/Spark-X2.5-1.7B",
+  "total_problems": 2,
+  "correct": 0,
+  "incorrect": 0,
+  "errors": 2,
+  "accuracy": 0,
+  "results": [
+    {
+      "index": 0,
+      "unique_id": "test/precalculus/807.json",
+      "problem": "Convert the point $(0,3)$ in rectangular coordinates to polar coordinates.  Enter your answer in the form $(r,\\theta),$ where $r > 0$ and $0 \\le \\theta < 2 \\pi.$",
+      "ground_truth": "\\left( 3, \\frac{\\pi}{2} \\right)",
+      "model_answer": "ERROR: usage: spark-mlx-generate [-h] --model MODEL [--prompt PROMPT]\n                          [--max-tokens MAX_TOKENS] [--temp TEMP]\n                          [--top-p TOP_P] [--top-k TOP_K] [--seed SEED]\n                          [--device {auto,cpu,gpu}]\n                          [--dtype {checkpoint,float32,bfloat16}]\n                          [--ignore-chat-template]\nspark-mlx-generate: error: unrecognized arguments: --trust-remote-code\n",
+      "full_response": "ERROR: usage: spark-mlx-generate [-h] --model MODEL [--prompt PROMPT]\n                          [--max-tokens MAX_TOKENS] [--temp TEMP]\n                          [--top-p TOP_P] [--top-k TOP_K] [--seed SEED]\n                          [--device {auto,cpu,gpu}]\n                          [--dtype {checkpoint,float32,bfloat16}]\n                          [--ignore-chat-template]\nspark-mlx-generate: error: unrecognized arguments: --trust-remote-code\n",
+      "subject": "Precalculus",
+      "level": 2,
+      "correct": false
+    },
+    {
+      "index": 1,
+      "unique_id": "test/intermediate_algebra/1994.json",
+      "problem": "Define\n\\[p = \\sum_{k = 1}^\\infty \\frac{1}{k^2} \\quad \\text{and} \\quad q = \\sum_{k = 1}^\\infty \\frac{1}{k^3}.\\]Find a way to write\n\\[\\sum_{j = 1}^\\infty \\sum_{k = 1}^\\infty \\frac{1}{(j + k)^3}\\]in terms of $p$ and $q.$",
+      "ground_truth": "p - q",
+      "model_answer": "ERROR: usage: spark-mlx-generate [-h] --model MODEL [--prompt PROMPT]\n                          [--max-tokens MAX_TOKENS] [--temp TEMP]\n                          [--top-p TOP_P] [--top-k TOP_K] [--seed SEED]\n                          [--device {auto,cpu,gpu}]\n                          [--dtype {checkpoint,float32,bfloat16}]\n                          [--ignore-chat-template]\nspark-mlx-generate: error: unrecognized arguments: --trust-remote-code\n",
+      "full_response": "ERROR: usage: spark-mlx-generate [-h] --model MODEL [--prompt PROMPT]\n                          [--max-tokens MAX_TOKENS] [--temp TEMP]\n                          [--top-p TOP_P] [--top-k TOP_K] [--seed SEED]\n                          [--device {auto,cpu,gpu}]\n                          [--dtype {checkpoint,float32,bfloat16}]\n                          [--ignore-chat-template]\nspark-mlx-generate: error: unrecognized arguments: --trust-remote-code\n",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "correct": false
+    }
+  ]
+}
