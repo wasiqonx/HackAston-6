@@ -55,7 +55,7 @@ HackAston-6/
 
 ---
 
-## 🔧 Environment Specifications
+##  Environment Specifications
 
 | Component | Details |
 |-----------|---------|
